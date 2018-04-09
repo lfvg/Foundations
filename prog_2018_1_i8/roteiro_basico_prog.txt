@@ -1,0 +1,17 @@
+Variáveis - let vs. var
+Atribuição
+Tipos - estaticamente tipada
+Impressão de strings com print
+print("\(...)")
+Operadores 
+Comando if
+Laços
+Arrays - let vs. var
+Funções
+
+OPCIONAIS
+
+Encadeamento de opcionais. Exemplo de Game of Thrones.
+
+
+Futuramente, árvore binária.
