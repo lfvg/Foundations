@@ -9,7 +9,7 @@ func quick(pArray:[Int])->[Int]{
             arr[1] = pivo
         }
     }
-    else if(arr.endIndex>2){
+    else{
         while(i<j){
             //erro aqui quando o array so tem um elemento
             //esse erro foi corrigido (na verdade nao precisava do else if em cima, era so ter movido a comparacao de limimte pra antes da de valores dontro do array dos dois whiles)
@@ -33,9 +33,12 @@ func quick(pArray:[Int])->[Int]{
     var righti:[Int] = []
     var retorno = arr
     
-    
+    print (i)
     //print("Esse é o arr \(arr)")
-    if i<arr.endIndex{
+    
+    
+    //nao ta entrando aqui
+    if i<=arr.endIndex && arr.endIndex>1{
         var left = arr[0 ..< j]
         //print("Esse é o left \(left)")
         lefti = quick(pArray: Array(left))
@@ -58,6 +61,6 @@ func quick(pArray:[Int])->[Int]{
 }
 
 
-var ar = [11, 10, 30, 20, 54]
+var ar = [11,  10, 30, 20, 54]
 print (ar.endIndex)
 print(quick(pArray: ar))
