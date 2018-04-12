@@ -1,7 +1,6 @@
 func quick(pArray:[Int])->[Int]{
     var arr = pArray
     //ele para aqui [BUG] [CORRIGIR]
-    let pivo = pArray[0]
     var i = 1
     var j = arr.count-1
     
@@ -9,8 +8,9 @@ func quick(pArray:[Int])->[Int]{
     if (arr.endIndex == 2){
         print("Entrou no if")
         if(arr[0] < arr[1]){
+            let temp = arr[0]
             arr[0] = arr[1]
-            arr[1] = pivo
+            arr[1] = temp
         }
     }
     else if (arr.endIndex>2){
@@ -30,8 +30,9 @@ func quick(pArray:[Int])->[Int]{
                 arr[j] = temp
             }
         }
+        let temp = arr[0]
         arr[0] = arr[j]
-        arr[j] = pivo
+        arr[j] = temp
     }
     
     var lefti:[Int] = []
@@ -73,4 +74,4 @@ var a = teste[0..<0]
 var b = Array(a)
 print("Valores de a \(b)")
 var ar = [11,  10, 30, 20, 54, 6]
-//print(quick(pArray: ar))
+print(quick(pArray: ar))
