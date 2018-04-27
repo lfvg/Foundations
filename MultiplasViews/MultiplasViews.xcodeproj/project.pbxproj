@@ -15,6 +15,7 @@
 		FCE670CB20938BA2007018B4 /* MultiplasViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE670CA20938BA2007018B4 /* MultiplasViewsTests.swift */; };
 		FCE670D620938BA2007018B4 /* MultiplasViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE670D520938BA2007018B4 /* MultiplasViewsUITests.swift */; };
 		FCE670E420938E38007018B4 /* VoltarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE670E320938E38007018B4 /* VoltarViewController.swift */; };
+		FCE670E62093A608007018B4 /* TerceiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE670E52093A608007018B4 /* TerceiraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FCE670D520938BA2007018B4 /* MultiplasViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplasViewsUITests.swift; sourceTree = "<group>"; };
 		FCE670D720938BA2007018B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE670E320938E38007018B4 /* VoltarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltarViewController.swift; sourceTree = "<group>"; };
+		FCE670E52093A608007018B4 /* TerceiraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerceiraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FCE670BC20938BA2007018B4 /* Assets.xcassets */,
 				FCE670BE20938BA2007018B4 /* LaunchScreen.storyboard */,
 				FCE670C120938BA2007018B4 /* Info.plist */,
+				FCE670E52093A608007018B4 /* TerceiraViewController.swift */,
 			);
 			path = MultiplasViews;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE670B820938B9F007018B4 /* ViewController.swift in Sources */,
+				FCE670E62093A608007018B4 /* TerceiraViewController.swift in Sources */,
 				FCE670E420938E38007018B4 /* VoltarViewController.swift in Sources */,
 				FCE670B620938B9F007018B4 /* AppDelegate.swift in Sources */,
 			);
