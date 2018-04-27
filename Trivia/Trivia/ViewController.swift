@@ -40,19 +40,11 @@ var arrayPerguntas = [Pergunta("Qual o melhor professor do Foundations", "Kiev",
 
 
 class ViewController: UIViewController {
-    var sre = 0
-    
-    @IBOutlet weak var RespostaC: UILabel!
-    @IBOutlet weak var RespostaB: UILabel!
-    @IBOutlet weak var RespostaA: UILabel!
-    @IBOutlet weak var PerguntaLabel: UILabel!
-    @IBOutlet weak var Score: UILabel!
+    var scr = 0
+    var aux = 0
+   
     override func viewDidLoad() {
-        Score.text = "Score: \(sre)"
-        PerguntaLabel.text = arrayPerguntas[0].getPergunta()
-        RespostaA.text = arrayPerguntas[0].getRespostas()[0]
-        RespostaA.text = arrayPerguntas[0].getRespostas()[1]
-        RespostaA.text = arrayPerguntas[0].getRespostas()[2]
+       
         super.viewDidLoad()
     }
     
