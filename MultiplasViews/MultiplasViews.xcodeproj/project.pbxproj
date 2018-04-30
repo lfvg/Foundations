@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3FAE9320977E8100D6DFF7 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FAE9220977E8100D6DFF7 /* ImageViewController.swift */; };
+		FC3FAE952097837800D6DFF7 /* Apple.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3FAE942097837800D6DFF7 /* Apple.xcassets */; };
 		FCE670B620938B9F007018B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE670B520938B9F007018B4 /* AppDelegate.swift */; };
 		FCE670B820938B9F007018B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE670B720938B9F007018B4 /* ViewController.swift */; };
 		FCE670BB20938B9F007018B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE670B920938B9F007018B4 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC3FAE9220977E8100D6DFF7 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		FC3FAE942097837800D6DFF7 /* Apple.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Apple.xcassets; sourceTree = "<group>"; };
 		FCE670B220938B9F007018B4 /* MultiplasViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplasViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE670B520938B9F007018B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCE670B720938B9F007018B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				FCE670BE20938BA2007018B4 /* LaunchScreen.storyboard */,
 				FCE670C120938BA2007018B4 /* Info.plist */,
 				FCE670E52093A608007018B4 /* TerceiraViewController.swift */,
+				FC3FAE9220977E8100D6DFF7 /* ImageViewController.swift */,
+				FC3FAE942097837800D6DFF7 /* Apple.xcassets */,
 			);
 			path = MultiplasViews;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3FAE952097837800D6DFF7 /* Apple.xcassets in Resources */,
 				FCE670C020938BA2007018B4 /* LaunchScreen.storyboard in Resources */,
 				FCE670BD20938BA2007018B4 /* Assets.xcassets in Resources */,
 				FCE670BB20938B9F007018B4 /* Main.storyboard in Resources */,
@@ -264,6 +271,7 @@
 			files = (
 				FCE670B820938B9F007018B4 /* ViewController.swift in Sources */,
 				FCE670E62093A608007018B4 /* TerceiraViewController.swift in Sources */,
+				FC3FAE9320977E8100D6DFF7 /* ImageViewController.swift in Sources */,
 				FCE670E420938E38007018B4 /* VoltarViewController.swift in Sources */,
 				FCE670B620938B9F007018B4 /* AppDelegate.swift in Sources */,
 			);

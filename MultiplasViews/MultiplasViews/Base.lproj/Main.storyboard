@@ -122,6 +122,14 @@
                                     <segue destination="Qn6-NA-c6J" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="gdP-xD-CtV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bII-8d-H7y">
+                                <rect key="frame" x="162" y="411" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="nzR-oP-g4d" kind="show" id="k17-1Z-dpH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uJd-TT-Wem"/>
@@ -131,6 +139,30 @@
                 <exit id="Qn6-NA-c6J" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="5530" y="118"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="ohm-6B-kHQ">
+            <objects>
+                <viewController id="nzR-oP-g4d" customClass="ImageViewController" customModule="MultiplasViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R7b-HV-VVH" customClass="Image">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple-logo_318-40184" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4rE-bk-RRW">
+                                <rect key="frame" x="67" y="215" width="240" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="chg-2F-WpI"/>
+                    </view>
+                    <connections>
+                        <outlet property="myImage" destination="4rE-bk-RRW" id="3si-P0-oHw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ldX-Rw-9cN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6368.8000000000002" y="116.49175412293854"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NP6-tA-CT9">
@@ -151,6 +183,9 @@
             <point key="canvasLocation" x="2088.8000000000002" y="113.79310344827587"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="apple-logo_318-40184" width="626" height="626"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Ot3-hP-9Gn"/>
     </inferredMetricsTieBreakers>
