@@ -8,12 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var meuTexto: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        meuTexto.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
